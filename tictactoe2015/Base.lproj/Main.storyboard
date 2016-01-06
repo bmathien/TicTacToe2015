@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tictactoe2015" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJe-8A-gHn" userLabel="grid View">
+                                <rect key="frame" x="72" y="117" width="350" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61U-wn-mud" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Trr-1n-Wgv" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="120" y="0.0" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NR7-vA-9CD" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="120" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBw-7r-b75" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="240" y="120" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXH-fj-Uzk" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="120" y="120" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLx-ub-i87" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="240" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xf-iP-A8H" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="240" y="240" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJi-OK-gWp" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="120" y="240" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srp-Mb-vqt" customClass="GridLabel" customModule="tictactoe2015" customModuleProvider="target">
+                                        <rect key="frame" x="240" y="0.0" width="110" height="110"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="100"/>
+                                        <color key="textColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.86979950770000003" blue="0.66010186950000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95193765470000002" green="1" blue="0.89362317329999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hlD-8y-743" appends="YES" id="dvp-gu-7Tw"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bJe-8A-gHn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nTb-PN-mTl"/>
+                            <constraint firstItem="bJe-8A-gHn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qE3-xM-naH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gridView" destination="bJe-8A-gHn" id="DEf-Cy-nWW"/>
+                        <outlet property="lab1" destination="61U-wn-mud" id="Eek-kt-GwV"/>
+                        <outlet property="lab2" destination="Trr-1n-Wgv" id="CZC-k9-Aiy"/>
+                        <outlet property="lab3" destination="srp-Mb-vqt" id="vTV-Jq-W2C"/>
+                        <outlet property="lab4" destination="NR7-vA-9CD" id="W0l-3y-Uni"/>
+                        <outlet property="lab5" destination="eXH-fj-Uzk" id="VPu-WW-yg5"/>
+                        <outlet property="lab6" destination="MBw-7r-b75" id="UpU-Oc-gpC"/>
+                        <outlet property="lab7" destination="XLx-ub-i87" id="Zti-Q6-kar"/>
+                        <outlet property="lab8" destination="kJi-OK-gWp" id="JZi-pz-UeM"/>
+                        <outlet property="lab9" destination="6xf-iP-A8H" id="Yuj-Im-BCV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hlD-8y-743">
+                    <connections>
+                        <action selector="gridTapped:" destination="BYZ-38-t0r" id="vsP-ut-ctp"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
